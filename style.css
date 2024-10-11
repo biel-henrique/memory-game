@@ -13,6 +13,9 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
 }
 
 .header {
@@ -41,7 +44,7 @@ body {
 }
 
 .container {
-    margin-top: 110px;
+    margin-top: 150px;
     display: flex;
     flex-wrap: wrap;
     gap: 34px;
@@ -91,7 +94,7 @@ img {
 }
 
 .replay {
-    margin-top: 100px;
+    margin-top: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
