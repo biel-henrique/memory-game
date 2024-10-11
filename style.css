@@ -16,6 +16,7 @@ body {
     position: fixed;
     top: 0;
     left: 0;
+    background-color: #EEF9BF;
     z-index: 1;
 }
 
@@ -27,6 +28,7 @@ body {
     font-family: "Roboto", sans-serif;
     width: 100vw;
     height: 63px;
+    background-color: #EEF9BF;
 }
 
 .game-title {
@@ -123,7 +125,7 @@ img {
     display: none;
 }
 
-@media (max-width: 335px) {
+@media (max-width: 540px) {
     .game-title {
         font-size: 36px;
     }
