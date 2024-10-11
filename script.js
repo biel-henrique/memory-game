@@ -24,17 +24,12 @@ let sortBirds = verseBirds.sort(random)
 
 function randomCards(){
     let firstSort = []
-    let secondSort = []
 
     for(let index = 0; index < amountCardsNumber/2; index++){
         firstSort.push(sortBirds[index])
     }
 
-    for(let index = 0; index < amountCardsNumber/2; index++){
-        secondSort.push(firstSort[index])
-    }
-
-    let secondRandom = secondSort.sort(random)
+    let secondRandom = [...firstSort].sort(random)
     return [firstSort, secondRandom]
 }
 
