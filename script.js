@@ -81,13 +81,12 @@ function removeTurn(element, preview) {
 
 function showButtomReplay(){
     let addReplay = document.querySelector('.configButtom')
-    let removeHidden = document.querySelector('.hidden')
     let buttomReplay = `
         <buttom onclick="callButtomReplay()" class="buttom">
         Jogar Novamente
         </buttom>`
         addReplay.innerHTML += buttomReplay
-        removeHidden.classList.remove('hidden')
+        addReplay.classList.remove('hidden')
 }
 
 function callButtomReplay() {
